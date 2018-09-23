@@ -1,0 +1,7 @@
+githubScraper/__init__.py
+githubScraper/githubScraper.py
+githubScraper.egg-info/PKG-INFO
+githubScraper.egg-info/SOURCES.txt
+githubScraper.egg-info/dependency_links.txt
+githubScraper.egg-info/not-zip-safe
+githubScraper.egg-info/top_level.txt
