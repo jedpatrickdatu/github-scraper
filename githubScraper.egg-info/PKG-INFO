@@ -1,7 +1,7 @@
 Metadata-Version: 1.0
 Name: githubScraper
-Version: 0.1
-Summary: Scraper of GitHub data
+Version: 2.0
+Summary: Scraper of data from public GitHub repositories
 Home-page: https://github.com/jedpatrickdatu/github-scraper
 Author: Jed Patrick Datu
 Author-email: jedpatrickdatu@gmail.com

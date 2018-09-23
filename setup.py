@@ -1,7 +1,7 @@
 import setuptools
 
-setuptools.setup(name='scraper',
-      version='0.1',
+setuptools.setup(name='githubScraper',
+      version='0.2',
       description='Scraper of data from public GitHub repositories',
       url='https://github.com/jedpatrickdatu/github-scraper',
       author='Jed Patrick Datu',

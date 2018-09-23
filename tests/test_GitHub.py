@@ -2,11 +2,13 @@ import unittest
 import requests
 import requests_mock
 
-from scraper import GitHub
+from githubScraper import GitHub
 
 class GitHubTestCase(unittest.TestCase):
     ghApiBaseUrl = 'https://api.github.com/repos/'
     owner = 'jedpatrickdatu'
+
+    # More tests to follow
 
     @requests_mock.mock()
     def test_read_iterates_over_repo_resources(self, requestsMock):
@@ -23,7 +25,8 @@ class GitHubTestCase(unittest.TestCase):
 
         expectedRequestURL = self.ghApiBaseUrl+self.owner+'/'+repos[0]+'/'+resources[0]
         expectedDataResult = {'sampleKey': 'sampleData'}
-
         requestsMock.get(expectedRequestURL, json=expectedDataResult)
+
         result = self.gh.read()
+        
         self.assertEqual(result, expectedDataResult)
